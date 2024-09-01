@@ -335,7 +335,7 @@ footer{
     .burger-menu span {
         font-size: 36px;
         color: black;
-        margin-left: 200px;
+        margin-left: 100px;
     }
     .overlay a {
         font-size: 23px;
@@ -350,9 +350,10 @@ footer{
         margin: 0px;
         width: 100%;
         padding-top: 200px;
+        height: 800px;
     }
     .image-area h1{
-        font-size: 50px;
+        font-size: 40px;
         line-height: 50px;
     }
     .mini-boxes{
@@ -360,8 +361,9 @@ footer{
         padding-bottom: 100px;
     }
     .fix{
-        width: 100%;
+        width: 75%;
         margin: 0px;
+        padding: 0px 62px;
     }
     .fix h2{
         font-size: 30px;
@@ -419,7 +421,7 @@ footer{
         margin-top: -100px; 
     }
     .services{
-        height: 1550px;
+        height: 1500px;
         gap: 10px;
         margin: 0px;
     }
@@ -442,10 +444,10 @@ footer{
         font-size: 20px;
     }
     .text{
-        height: 900px;
+        height: 950px;
         gap: 15px;
         font-size: 15px;
-        padding: 20px 60px;
+        padding: 20px 50px;
     }    
     .last-part{
         margin-bottom: 50px;
@@ -470,5 +472,4 @@ footer{
         font-size: 20px;
         margin-left: 14px;
     }
-    
 }
