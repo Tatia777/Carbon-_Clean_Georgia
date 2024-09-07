@@ -352,10 +352,11 @@ footer{
 }
 /* Contact Us Page */
 .contact-us{
-    height: 600px;
+    height: 700px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 50px;
     margin: 0px 30px;
     margin-top: 70px;
     text-align: center;
@@ -599,7 +600,7 @@ footer{
     }
     /* Contact us Page */
     .contact-us{
-        height: 1100px;
+        height: 1200px;
         margin: 0px;
         margin-top: 0px;
     }
