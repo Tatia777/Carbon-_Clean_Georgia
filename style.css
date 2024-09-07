@@ -109,6 +109,7 @@ li:hover{
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    padding-bottom: 60px;
 }
 .mini-box{
     height: 183px;
@@ -430,9 +431,10 @@ footer{
     flex-direction: column;
     gap: 10px;
 }
+
 /* Responsive Design */
 @media screen and (max-width: 600px) {
-    /* header */
+    /* Home Page */
     .navigation, .ph-number {
         display: none;
     }
@@ -459,12 +461,11 @@ footer{
         top: 10px;
         right: 95px;
     }
-    /* header */
     .image-area{
         margin: 0px;
         width: 100%;
         padding-top: 200px;
-        height: 800px;
+        height: 1000px;
     }
     .image-area h1{
         font-size: 40px;
@@ -472,12 +473,10 @@ footer{
     }
     .mini-boxes{
         flex-direction: column;
-        padding-bottom: 100px;
     }
     .fix{
         width: 100%;
         margin: 0px;
-        /* padding: 0px 62px; */
     }
     .fix h2{
         font-size: 30px;
@@ -496,10 +495,6 @@ footer{
         display: flex;
         flex-direction: column;
         padding-top: 40px;
-    }
-    .partners img{
-        height: 110px;
-        width: 110px;
     }
     .mb{
         display: flex;
@@ -524,6 +519,7 @@ footer{
         margin-top: 50px;
         margin-left: 70px;
     }
+    /* Services Page */
     .title{
         margin: 0px;
     }
@@ -537,13 +533,13 @@ footer{
         margin-top: -100px; 
     }
     .services{
-        height: 1500px;
+        height: 1630px;
         gap: 10px;
         margin: 0px;
     }
     .p-serv{
         flex-direction: column;
-        gap: 30px;
+        gap: 50px;
     }
     .mini-service1{
         margin-top: -60px;
@@ -559,53 +555,14 @@ footer{
     .call h3{
         font-size: 20px;
     }
-    .text{
-        height: 1250px;
-        gap: 15px;
-        font-size: 15px;
-        padding: 0px 50px;
-    }    
-    .last-part{
-        margin-bottom: 50px;
-    }
-    .contact-us{
-        height: 1100px;
-        margin: 0px;
-        margin-top: 0px;
-    }
-    .contact-info{
-        flex-direction: column;
-        gap: 70px;
-        padding-bottom: 0px;
-    }
-    .info1 i{
-        font-size: 28px;
-    }
-    .info1 h5{
-        font-size: 20px;
-    }
-    .sym i{
-        font-size: 20px;
-        margin-left: 14px;
-    }
-    .FAQs{
-        height: 920px;
-        padding: 0px;
-    }
-    .FAQs h4{
-        font-size: 20px;
-        margin-bottom: 30px;
-    }
-    .collapsible{
-        font-size: 15px;
-    }
+    /* Products Page */
     .all-products{
-        height: 6500px;
+        height: 6400px;
         padding-top: 10px;
     }
     .all-products h2{
         font-size: 30px;
-        margin-left: 50px;
+        margin-left: 0px;
     }
     .pair-of-products{
         flex-direction: column;
@@ -627,6 +584,50 @@ footer{
     .tabcontent {
         width: 100%;
         border: 1px solid #ccc;
-        margin-top: -111px;
+        margin-top: -113px;
+        padding-top: 15px;
+    }    
+    /* About us Page */
+    .text{
+        height: 1250px;
+        gap: 15px;
+        font-size: 15px;
+        padding: 0px 40px;
+    }    
+    .last-part{
+        margin-bottom: 50px;
+    }
+    /* Contact us Page */
+    .contact-us{
+        height: 1100px;
+        margin: 0px;
+        margin-top: 0px;
+    }
+    .contact-info{
+        flex-direction: column;
+        gap: 70px;
+        padding-bottom: 0px;
+    }
+    .info1 i{
+        font-size: 28px;
+    }
+    .info1 h5{
+        font-size: 20px;
+    }
+    .sym i{
+        font-size: 20px;
+        margin-left: 14px;
+    }
+    /* FAQs Page */
+    .FAQs{
+        height: 925px;
+        padding: 0px;
+    }
+    .FAQs h4{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .collapsible{
+        font-size: 15px;
     }
 }
